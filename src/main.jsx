@@ -21,15 +21,10 @@ const router = createBrowserRouter([
       element: <App />,
       errorElement: <Error />,
       children: [
-        //TODO - should about be default route?
         {
           index: true,
           element: <About />,
         },
-        // {
-        //   path: '/About',
-        //   element: <About />,
-        // },
         {
           path: '/Portfolio',
           element: <Portfolio />,
