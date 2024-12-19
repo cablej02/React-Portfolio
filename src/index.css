@@ -67,6 +67,17 @@ button:focus-visible {
     text-align: center;
 }
 
+.card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 16px;
+    margin: 16px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.card h3 {
+    margin-top: 0;
+}
+
 @media (prefers-color-scheme: light) {
   :root {
     color: #213547;
