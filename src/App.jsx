@@ -7,7 +7,7 @@ function App() {
   return (
     <>
         <Header />
-        <main className="container" style={{ marginTop: '100px' }}>
+        <main className="container" style={{ marginTop: '100px'}}>
             <Outlet />
         </main>
         <Footer />

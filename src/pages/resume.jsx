@@ -1,6 +1,6 @@
 export default function Resume() {
     return (
-        <div className="container pb-5">
+        <div className="container pb-5" style={{ maxWidth: '1100px'}}>
             <h2 className="display-4 fw-normal mb-4">Job Experience</h2>
             <div className="card">
                 <h3>Mobile Game Designer and Developer with Wayward Gaming</h3>
