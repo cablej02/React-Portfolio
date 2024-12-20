@@ -1,11 +1,8 @@
 import ReactDOM from 'react-dom/client'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 
-//TODO - cleanup css imports to only what's needed
 import 'bootstrap/dist/css/bootstrap.min.css'
-// import 'bootstrap/dist/js/bootstrap.bundle.min.js'
 import './index.css'
-// import './App.css'
 
 import App from './App.jsx'
 import Error from './pages/error.jsx'

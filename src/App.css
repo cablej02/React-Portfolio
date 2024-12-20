@@ -5,11 +5,10 @@
   font-weight: 500;
 }
 
-
-
 header {
     background-color: var(--primary-color);
     color: var(--text-color);
+    border-bottom: 10px solid var(--background-color);
 }
 
 main {
@@ -28,6 +27,17 @@ p, a, h1, h2, h3 {
 
 h1, h2, h3 {
     text-shadow: 1px 1px 1px var(--background-color);
+}
+
+.submit-button {
+    margin-top: 10px;
+    background-color: var(--primary-color);
+    color: var(--text-color);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.25s;
 }
 
 .nav-custom .nav-link {
