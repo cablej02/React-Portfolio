@@ -1,10 +1,12 @@
 export default function Resume() {
     return (
+        //add link with download attribute to download resume
         <div className="container pb-5" style={{ maxWidth: '1100px'}}>
+            <a href="/resume.pdf" download className="btn button mb-4">Download Resume</a>
             <h2 className="display-4 fw-normal mb-4">Job Experience</h2>
             <div className="card">
                 <h3>Mobile Game Designer and Developer with Wayward Gaming</h3>
-                <p>Designed, developed, and published games to mobile marketplaces using primarily Unity and C#.</p>
+                <p>Design, develop, and publish games to mobile marketplaces using primarily Unity and C#.</p>
                 <p><strong>Duration:</strong> Jan 2019 - Present</p>
             </div>
             <div className="card">
